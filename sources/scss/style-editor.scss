@@ -1,0 +1,19 @@
+@use "sass:meta";
+@use "variables";
+@use "extend";
+
+.editor-post-title {
+    padding: 0 30px;
+    margin-bottom: 0;
+    margin-block-end: 40px !important;
+    //font-size: _rem(42);
+}
+
+[class*=wp-block-acf-] {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+// Utilities
+@include meta.load-css("reboot");
+@include meta.load-css("general");
