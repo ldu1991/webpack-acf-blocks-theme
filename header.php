@@ -69,3 +69,31 @@ if (!defined('ABSPATH')) {
     └── index.php
 
 
+    let entries = {
+        '../assets/js/script': './js/script.js',
+        '../blocks/spacer/script': './blocks/spacer/script.js',
+        '../assets/css/style': './scss/style.scss',
+        '../assets/css/style-editor': './scss/style-editor.scss',
+        '../blocks/spacer/style': './blocks/spacer/style.scss'
+    }
+
+
+    blockPath:  ../assets/js
+    blockName:  script
+    join:  ..\..\assets\js\script
+
+    blockPath:  ../blocks/spacer
+    blockName:  script
+    join:  ..\..\blocks\spacer\script
+
+    blockPath:  ../assets/css
+    blockName:  style
+    join:  ..\..\assets\css\style
+
+    blockPath:  ../assets/css
+    blockName:  style-editor
+    join:  ..\..\assets\css\style-editor
+
+    blockPath:  ../blocks/spacer
+    blockName:  style
+    join:  ..\..\blocks\spacer\style
